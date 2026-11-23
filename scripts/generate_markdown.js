@@ -12,6 +12,10 @@ const parsedData = Papa.parse(csvdata, {
   skipEmptyLines: true,
 });
 
+parsedData.data = parsedData.data.filter(
+  (row) => (row["Licensing"] || "").trim().toLowerCase() !== "premium"
+);
+
 parsedData.data.sort((a, b) => {
   const providerA = (a["Provider"] || "").toLowerCase();
   const providerB = (b["Provider"] || "").toLowerCase();

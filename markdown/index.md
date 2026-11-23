@@ -15,7 +15,7 @@ For each dataset, we compile metadata for:
 - Description
 - Primary category and secondary category (themes)
 - Primary and secondary access method (i.e. file format or API)
-- Licensing (either open or premium)
+- Licensing (open)
 - Data link
 - Documentation link
 
