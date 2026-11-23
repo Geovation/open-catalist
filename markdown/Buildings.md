@@ -59,7 +59,7 @@ EPC rating for properties, along with other energy-related stats. About 60% have
 
 
 
-## Google Solar
+## Google Solar API
 
 Insights about the location and dimensions of buildings, and estimated solar poteintial data including sunshine levels, installation size/cost, and energy savings. Geometric panel positioning can also be modelled.
 
