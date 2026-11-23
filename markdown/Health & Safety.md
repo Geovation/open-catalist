@@ -2,7 +2,7 @@
 title: Health & Safety
 has_children: false
 parent: Catalist
-nav_order: 9
+nav_order: 8
 ---
 
 # Health & Safety

@@ -2,38 +2,20 @@
 title: Retail
 has_children: false
 parent: Catalist
-nav_order: 13
+nav_order: 12
 ---
 
 # Retail
 
-| Name                                                                                                        | Provider                | Licensing | Data link 1                                                                                                                                | Data link 2                                                                | Docs link                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------- | ----------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [Expedia & Vrbo Property Content](#expedia-&-vrbo-property-content)                                         | Expedia Group           | Premium   | [Data link 1](https://developers.expediagroup.com/rapid/api/explorer)                                                                      | [Data link 2](https://developers.expediagroup.com/rapid/sdk/java)          | [Docs link](https://developers.expediagroup.com/rapid/lodging/content)                                     |
-| [Food Hygiene Ratings](#food-hygiene-ratings)                                                               | Food Standards Agency   | Open      | [Data link 1](https://api.ratings.food.gov.uk/Help/Index)                                                                                  | [Data link 2](https://ratings.food.gov.uk/open-data)                       | [Docs link](https://ratings.food.gov.uk/open-data)                                                         |
-| [Retail Centre Boundaries](#retail-centre-boundaries)                                                       | Geographic Data Service | Open      | [Data link 1](https://data.geods.ac.uk/dataset/retail-centre-boundaries-and-open-indicators/resource/00b4e06a-8189-4771-8ff3-c2dbe9cbd606) |                                                                            | [Docs link](https://data.geods.ac.uk/dataset/retail-centre-boundaries-and-open-indicators)                 |
-| [Supermarket Retail Points](#supermarket-retail-points)                                                     | Geolytix                | Open      | [Data link 1](https://drive.google.com/file/d/1B8M7m86rQg2sx2TsHhFa2d-x-dZ1DbSy/view?pli=1)                                                |                                                                            | [Docs link](https://geolytix.com/blog/supermarket-retail-points/)                                          |
-| [Bank & Building Societies Points](#bank-&-building-societies-points)                                       | Geolytix                | Open      | [Data link 1](https://drive.google.com/file/d/1RjyAK7qa-qoKtU25KI4e-_mmdxW601tj/view)                                                      |                                                                            | [Docs link](https://geolytix.co.uk/blog/banking-building-societies-locations/)                             |
-| [Google Places](#google-places)                                                                             | Google                  | Premium   | [Data link 1](https://developers.google.com/maps/documentation/places/web-service/op-overview)                                             |                                                                            | [Docs link](https://developers.google.com/maps/documentation/places/web-service)                           |
-| [HMLR UK Companies Data](#hmlr-uk-companies-data)                                                           | HM Land Registry        | Open      | [Data link 1](https://use-land-property-data.service.gov.uk/datasets/ccod)                                                                 | [Data link 2](https://use-land-property-data.service.gov.uk/datasets/ocod) | [Docs link](https://use-land-property-data.service.gov.uk/datasets/ccod/tech-spec)                         |
-| [Airbnb Listings](#airbnb-listings)                                                                         | InsideAirbnb            | Open      | [Data link 1](https://insideairbnb.com/get-the-data)                                                                                       |                                                                            | [Docs link](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit)      |
-| [OS NGD Admin & Statistical Units - Functional Areas](#os-ngd-admin-&-statistical-units---functional-areas) | Ordnance Survey         | Premium   | [Data link 1](https://osdatahub.os.uk/data/downloads/recipe-library)                                                                       |                                                                            | [Docs link](https://docs.os.uk/osngd/data-structure/administrative-and-statistical-units/functional-areas) |
-| [TripAdvisor Locations & Attractions](#tripadvisor-locations-&-attractions)                                 | TripAdvisor             | Premium   | [Data link 1](https://www.tripadvisor.com/developers?screen=credentials)                                                                   |                                                                            | [Docs link](https://tripadvisor-content-api.readme.io/reference/overview)                                  |
-| [VO Rating List](#vo-rating-list)                                                                           | Valuation Office        | Open      | [Data link 1](https://voaratinglists.blob.core.windows.net/html/rlidata.htm#availabledownloads)                                            |                                                                            | [Docs link](https://voaratinglists.blob.core.windows.net/html/rlidata.htm#technicalguidance)               |
-
-## Expedia & Vrbo Property Content
-
-Various data about property listings on Expedia and Vrbo, including information on location, rooms, amenities, ratings, reviews, chains, fees. Also includes free-text descriptions including attractions, location, amenities, and business amenities.
-
-- **Category:** Places & Points-of-Interest
-- **Secondary Category:** Retail
-- **Provider:** Expedia Group
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://developers.expediagroup.com/rapid/api/explorer)
-- **Data link 2:** [Data link 2](https://developers.expediagroup.com/rapid/sdk/java)
-- **Docs link:** [Docs link](https://developers.expediagroup.com/rapid/lodging/content)
-
-
+| Name                                                                  | Provider                | Licensing | Data link 1                                                                                                                                | Data link 2                                                                | Docs link                                                                                             |
+| --------------------------------------------------------------------- | ----------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Food Hygiene Ratings](#food-hygiene-ratings)                         | Food Standards Agency   | Open      | [Data link 1](https://api.ratings.food.gov.uk/Help/Index)                                                                                  | [Data link 2](https://ratings.food.gov.uk/open-data)                       | [Docs link](https://ratings.food.gov.uk/open-data)                                                    |
+| [Retail Centre Boundaries](#retail-centre-boundaries)                 | Geographic Data Service | Open      | [Data link 1](https://data.geods.ac.uk/dataset/retail-centre-boundaries-and-open-indicators/resource/00b4e06a-8189-4771-8ff3-c2dbe9cbd606) |                                                                            | [Docs link](https://data.geods.ac.uk/dataset/retail-centre-boundaries-and-open-indicators)            |
+| [Supermarket Retail Points](#supermarket-retail-points)               | Geolytix                | Open      | [Data link 1](https://drive.google.com/file/d/1B8M7m86rQg2sx2TsHhFa2d-x-dZ1DbSy/view?pli=1)                                                |                                                                            | [Docs link](https://geolytix.com/blog/supermarket-retail-points/)                                     |
+| [Bank & Building Societies Points](#bank-&-building-societies-points) | Geolytix                | Open      | [Data link 1](https://drive.google.com/file/d/1RjyAK7qa-qoKtU25KI4e-_mmdxW601tj/view)                                                      |                                                                            | [Docs link](https://geolytix.co.uk/blog/banking-building-societies-locations/)                        |
+| [HMLR UK Companies Data](#hmlr-uk-companies-data)                     | HM Land Registry        | Open      | [Data link 1](https://use-land-property-data.service.gov.uk/datasets/ccod)                                                                 | [Data link 2](https://use-land-property-data.service.gov.uk/datasets/ocod) | [Docs link](https://use-land-property-data.service.gov.uk/datasets/ccod/tech-spec)                    |
+| [Airbnb Listings](#airbnb-listings)                                   | InsideAirbnb            | Open      | [Data link 1](https://insideairbnb.com/get-the-data)                                                                                       |                                                                            | [Docs link](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit) |
+| [VO Rating List](#vo-rating-list)                                     | Valuation Office        | Open      | [Data link 1](https://voaratinglists.blob.core.windows.net/html/rlidata.htm#availabledownloads)                                            |                                                                            | [Docs link](https://voaratinglists.blob.core.windows.net/html/rlidata.htm#technicalguidance)          |
 
 ## Food Hygiene Ratings
 
@@ -91,20 +73,6 @@ National datasets of bank and building society locations and postcodes, includin
 
 
 
-## Google Places
-
-Categorised places with various details including opening hours, amenities, ratings, broad retail pricing, and location. The API supports place autocompletion and place searches.
-
-- **Category:** Places & Points-of-Interest
-- **Secondary Category:** Retail
-- **Provider:** Google
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://developers.google.com/maps/documentation/places/web-service/op-overview)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://developers.google.com/maps/documentation/places/web-service)
-
-
-
 ## HMLR UK Companies Data
 
 Information about UK (ccod) and overseas (ocod) companies that own property in the UK. Includes name, company number, title number, tenure, address, price paid, and dates.
@@ -130,34 +98,6 @@ Listing, review, and calendar data for Airbnb covering four GB cities: London, M
 - **Data link 1:** [Data link 1](https://insideairbnb.com/get-the-data)
 - **Data link 2:** 
 - **Docs link:** [Docs link](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit)
-
-
-
-## OS NGD Admin & Statistical Units - Functional Areas
-
-Algorithmically derived notional geographical extents of high streets, shopping centres, and retail parks. Derived from clustering of addresses with retail classifications. Further clustering produces three hierarchical functional areas (minor, major, aggregated), with higher layers representing clusters of lower layers. 
-
-- **Category:** Retail
-- **Secondary Category:** 
-- **Provider:** Ordnance Survey
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://osdatahub.os.uk/data/downloads/recipe-library)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://docs.os.uk/osngd/data-structure/administrative-and-statistical-units/functional-areas)
-
-
-
-## TripAdvisor Locations & Attractions
-
-Name, address, rating, URLs, reviews and photos of various attractions and locations from TripAdvisor.
-
-- **Category:** Places & Points-of-Interest
-- **Secondary Category:** Retail
-- **Provider:** TripAdvisor
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://www.tripadvisor.com/developers?screen=credentials)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://tripadvisor-content-api.readme.io/reference/overview)
 
 
 

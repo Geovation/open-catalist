@@ -2,15 +2,13 @@
 title: Demographics
 has_children: false
 parent: Catalist
-nav_order: 7
+nav_order: 6
 ---
 
 # Demographics
 
 | Name                                                                          | Provider                                            | Licensing | Data link 1                                                                                                                                                                           | Data link 2                                                                                                             | Docs link                                                                                                                  |
 | ----------------------------------------------------------------------------- | --------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [Real-Time Location Estimates](#real-time-location-estimates)                 | BT                                                  | Premium   | [Data link 1](https://business.bt.com/iot/active-intelligence/location-insights/#getintouch)                                                                                          |                                                                                                                         | [Docs link](https://developer.bt.com/products/real-time-location-insights)                                                 |
-| [Rail Insights](#rail-insights)                                               | BT                                                  | Premium   | [Data link 1](https://business.bt.com/iot/active-intelligence/journey-insights/#getintouch)                                                                                           |                                                                                                                         | [Docs link](https://developer.bt.com/products/rail-network-api)                                                            |
 | [Church of England Church Footprints](#church-of-england-church-footprints)   | Church of England                                   | Open      | [Data link 1](https://www.arcgis.com/apps/mapviewer/index.html?layers=f0334de1c2b24f6ab588561e6302154e)                                                                               |                                                                                                                         | [Docs link](https://www.arcgis.com/home/item.html?id=f0334de1c2b24f6ab588561e6302154e)                                     |
 | [Explore Education Statistics](#explore-education-statistics)                 | Department for Education                            | Open      | [Data link 1](https://explore-education-statistics.service.gov.uk/data-catalogue)                                                                                                     | [Data link 2](https://api.education.gov.uk/statistics/docs/)                                                            | [Docs link](https://explore-education-statistics.service.gov.uk/methodology)                                               |
 | [Get Information about Schools](#get-information-about-schools)               | Department for Education                            | Open      | [Data link 1](https://get-information-schools.service.gov.uk/Downloads)                                                                                                               |                                                                                                                         | [Docs link](https://get-information-schools.service.gov.uk/help)                                                           |
@@ -22,38 +20,7 @@ nav_order: 7
 | [Indices of Multiple Deprivation 2025](#indices-of-multiple-deprivation-2025) | Ministry of Housing, Communities & Local Government | Open      | [Data link 1](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025#documents)                                                                                 |                                                                                                                         | [Docs link](https://assets.publishing.service.gov.uk/media/68ff59c80f801e57b5bef907/ID_2025_Technical_Report.pdf)          |
 | [2021 Census Statistics](#2021-census-statistics)                             | Office for National Statistics                      | Open      | [Data link 1](https://www.nomisweb.co.uk/census/2021/data_finder)                                                                                                                     | [Data link 2](https://www.nomisweb.co.uk/api/v01/help)                                                                  | [Docs link](https://www.ons.gov.uk/census/census2021dictionary)                                                            |
 | [Police Indicents and Arrests](#police-indicents-and-arrests)                 | Police UK                                           | Open      | [Data link 1](https://data.police.uk/data/)                                                                                                                                           | [Data link 2](https://data.police.uk/docs/)                                                                             | [Docs link](https://data.police.uk/about/)                                                                                 |
-| [Searchland HMOs](#searchland-hmos)                                           | Searchland                                          | Premium   | [Data link 1](https://docs.searchland.co.uk/#tag/HMO)                                                                                                                                 |                                                                                                                         | [Docs link](https://searchland.co.uk/our-apis/hmo)                                                                         |
 | [Spatial Signatures](#spatial-signatures)                                     | Urban Grammar                                       | Open      | [Data link 1](https://figshare.com/articles/dataset/Geographical_Characterisation_of_British_Urban_Form_and_Function_using_the_Spatial_Signatures_Framework/16691575/3?file=36049196) | [Data link 2](https://github.com/urbangrammarai/spatial_signatures)                                                     | [Docs link](https://urbangrammarai.xyz/story/)                                                                             |
-
-## Real-Time Location Estimates
-
-Near-real-time population count estimates, broken down by age, gender, home & work, international visitors and percentage of the dwelling population compared to the moving population. Data updated every 15 minutes. Figures aggregated to H3 grid size 10 (each hex is ~1.5% of a square kilometer), or to LSOA. BT supplies related products for footfall to/from specific locations of interest. Other mobile network providers offer similar products:
-O2 - https://www.o2.co.uk/business/solutions/mobile/data-mobile/o2-motion
-Vodafone - https://preprod.dmp.vodafone.com/api-catalogue/analytics/vodafone-analytics-realtime-footfall-overview
-
-- **Category:** Demographics
-- **Secondary Category:** Road & Transportation
-- **Provider:** BT
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://business.bt.com/iot/active-intelligence/location-insights/#getintouch)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://developer.bt.com/products/real-time-location-insights)
-
-
-
-## Rail Insights
-
-Various insights into rail demographics and statistics: passenger volumes, station catchments, origin/destination, onboarders/alighters, rail-vs-road proportions.
-
-- **Category:** Road & Transportation
-- **Secondary Category:** Demographics
-- **Provider:** BT
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://business.bt.com/iot/active-intelligence/journey-insights/#getintouch)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://developer.bt.com/products/rail-network-api)
-
-
 
 ## Church of England Church Footprints
 
@@ -206,20 +173,6 @@ Various data about crimes and policing, including details, approximate location,
 - **Data link 1:** [Data link 1](https://data.police.uk/data/)
 - **Data link 2:** [Data link 2](https://data.police.uk/docs/)
 - **Docs link:** [Docs link](https://data.police.uk/about/)
-
-
-
-## Searchland HMOs
-
-Compiled dataset of Houses of Multiple occupation cross local authorities in England and Wales. Includes license holders and durations and property details including numbers of types of rooms.
-
-- **Category:** Demographics
-- **Secondary Category:** Land & Land Use
-- **Provider:** Searchland
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://docs.searchland.co.uk/#tag/HMO)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://searchland.co.uk/our-apis/hmo)
 
 
 

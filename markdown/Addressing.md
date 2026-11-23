@@ -2,7 +2,7 @@
 title: Addressing
 has_children: false
 parent: Catalist
-nav_order: 2
+nav_order: 1
 ---
 
 # Addressing
@@ -10,23 +10,12 @@ nav_order: 2
 | Name                                                                                                    | Provider                       | Licensing | Data link 1                                                                                                                                                                                             | Data link 2                                                                                                                       | Docs link                                                                                                               |
 | ------------------------------------------------------------------------------------------------------- | ------------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | [Medical/Care Establishment Locations and Ratings](#medical/care-establishment-locations-and-ratings)   | Care Quality Commission        | Open      | [Data link 1](https://www.cqc.org.uk/about-us/transparency/using-cqc-data#directory)                                                                                                                    | [Data link 2](https://api-portal.service.cqc.org.uk/api-details#api=syndication&operation=get-changes-within-timeframe)           | [Docs link](https://www.cqc.org.uk/about-us/transparency/using-cqc-data)                                                |
-| [GetAddress APIs](#getaddress-apis)                                                                     | GetAddress                     | Premium   | [Data link 1](https://documentation.getaddress.io)                                                                                                                                                      | [Data link 2](https://admin.getaddress.io/account/sign-up)                                                                        | [Docs link](https://getaddress.io/)                                                                                     |
 | [HMLR Price Paid Data](#hmlr-price-paid-data)                                                           | HM Land Registry               | Open      | [Data link 1](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)                                                                                                            |                                                                                                                                   | [Docs link](https://www.gov.uk/guidance/about-the-price-paid-data)                                                      |
-| [Registered Leases](#registered-leases)                                                                 | HM Land Registry               | Premium   | [Data link 1](https://use-land-property-data.service.gov.uk/datasets/leases#access)                                                                                                                     | [Data link 2](https://use-land-property-data.service.gov.uk/api-documentation)                                                    | [Docs link](https://use-land-property-data.service.gov.uk/datasets/leases/tech-spec)                                    |
-| [Online Owner Verification Service](#online-owner-verification-service)                                 | HM Land Registry               | Premium   | [Data link 1](https://landregistry.github.io/bgtechdoc/documents/online_owner_verification/OOV_Interface_Spec.html)                                                                                     | [Data link 2](https://www.gov.uk/guidance/hm-land-registry-verify-your-property-data#volume-data-matching)                        | [Docs link](https://www.gov.uk/guidance/hm-land-registry-verify-your-property-data)                                     |
-| [Zoopla Listings API](#zoopla-listings-api)                                                             | Hometrack                      | Premium   | [Data link 1](https://data.hometrack.com/documentation/listings)                                                                                                                                        | [Data link 2](https://www.hometrack.com/data-services/data-hub/)                                                                  | [Docs link](https://www.hometrack.com/data-services/property-listings-data-from-hometrack/)                             |
-| [Zoopla Comparables API](#zoopla-comparables-api)                                                       | Hometrack                      | Premium   | [Data link 1](https://data.hometrack.com/documentation/comparables)                                                                                                                                     | [Data link 2](https://www.hometrack.com/data-services/data-hub/)                                                                  | [Docs link](https://www.hometrack.com/data-services/comparables-data-from-hometrack/)                                   |
 | [ONS UPRN Directory](#ons-uprn-directory)                                                               | Office for National Statistics | Open      | [Data link 1](https://geoportal.statistics.gov.uk/search?categories=%252Fcategories%252Fuprn%2520products%252Fons%2520uprn%2520directory&q=ONS%20UPRN%20Directory&sort=Date%20Created%7Ccreated%7Cdesc) |                                                                                                                                   | [Docs link](https://geoportal.statistics.gov.uk/documents/ons::a-guide-to-ons-geography-postcode-products-1/about)      |
-| [OS NGD Address Theme](#os-ngd-address-theme)                                                           | Ordnance Survey                | Premium   | [Data link 1](https://docs.os.uk/os-apis/accessing-os-apis/os-places-api/technical-specification)                                                                                                       | [Data link 2](https://www.ordnancesurvey.co.uk/products/os-gb-address)                                                            | [Docs link](https://docs.os.uk/osngd/data-structure/address)                                                            |
 | [OS Open UPRN](#os-open-uprn)                                                                           | Ordnance Survey                | Open      | [Data link 1](https://osdatahub.os.uk/downloads/open/OpenUPRN)                                                                                                                                          | [Data link 2](https://docs.os.uk/os-apis/accessing-os-apis/os-features-api/technical-specification/getfeature)                    | [Docs link](https://docs.os.uk/os-downloads/identifiers/os-open-uprn)                                                   |
 | [OS Code-Point Open](#os-code-point-open)                                                               | Ordnance Survey                | Open      | [Data link 1](https://osdatahub.os.uk/downloads/open/CodePointOpen)                                                                                                                                     | [Data link 2](https://docs.os.uk/os-apis/accessing-os-apis/os-downloads-api/technical-specification/download-an-opendata-product) | [Docs link](https://docs.os.uk/os-downloads/addressing-and-location/code-point-open)                                    |
-| [OS Code-Point with Polygons](#os-code-point-with-polygons)                                             | Ordnance Survey                | Premium   | [Data link 1](https://www.ordnancesurvey.co.uk/products/code-point-polygons#get)                                                                                                                        |                                                                                                                                   | [Docs link](https://docs.os.uk/os-downloads/addressing-and-location/code-point-with-polygons)                           |
 | [OS Linked Identifiers](#os-linked-identifiers)                                                         | Ordnance Survey                | Open      | [Data link 1](https://docs.os.uk/os-apis/accessing-os-apis/os-linked-identifiers-api/technical-specification#api-reference)                                                                             | [Data link 2](https://osdatahub.os.uk/data/downloads/open/LIDS)                                                                   | [Docs link](https://docs.os.uk/os-downloads/products/buildings-and-infrastructure-portfolio/os-open-linked-identifiers) |
-| [PropertyData Title Registers](#propertydata-title-registers)                                           | PropertyData                   | Premium   | [Data link 1](https://propertydata.co.uk/api/pricing?x=api_docs)                                                                                                                                        |                                                                                                                                   | [Docs link](https://propertydata.co.uk/api/documentation/land-registry-documents)                                       |
 | [Registers of Scotland Cadastral Parcels (INSPIRE)](#registers-of-scotland-cadastral-parcels-(inspire)) | Registers of Scotland          | Open      | [Data link 1](https://ros-inspire.themapcloud.com/)                                                                                                                                                     |                                                                                                                                   | [Docs link](https://ros-inspire.themapcloud.com/assets/files/INSPIRE_dataset_specification_v1.5_March2025.pdf)          |
-| [Rightmove Property Data](#rightmove-property-data)                                                     | Rightmove                      | Premium   | [Data link 1](https://www.rightmove.co.uk/property-data/)                                                                                                                                               |                                                                                                                                   | [Docs link](https://www.rightmove.co.uk/property-data/rightmoves-property-data/)                                        |
-| [TomTom Places & POIs](#tomtom-places-&-pois)                                                           | TomTom                         | Premium   | [Data link 1](https://docs.tomtom.com/#:~:text=Documentation-,Places,-Batch%20Search%20API)                                                                                                             |                                                                                                                                   | [Docs link](https://www.tomtom.com/products/places-apis/)                                                               |
-| [Verisk UKBuildings](#verisk-ukbuildings)                                                               | Verisk                         | Premium   | [Data link 1](https://digimap.edina.ac.uk/verisk)                                                                                                                                                       | [Data link 2](https://apicatalog.verisk.com/docs/uk-data-api/zi70nw727oya9-verisk-uk-claims-data-api)                             | [Docs link](https://www.verisk.com/en-gb/products/ukbuildings)                                                          |
 
 ## Medical/Care Establishment Locations and Ratings
 
@@ -39,20 +28,6 @@ Locations and ratings for medical and care home institutions. Ratings are split 
 - **Data link 1:** [Data link 1](https://www.cqc.org.uk/about-us/transparency/using-cqc-data#directory)
 - **Data link 2:** [Data link 2](https://api-portal.service.cqc.org.uk/api-details#api=syndication&operation=get-changes-within-timeframe)
 - **Docs link:** [Docs link](https://www.cqc.org.uk/about-us/transparency/using-cqc-data)
-
-
-
-## GetAddress APIs
-
-Addresses sourced from OS Code Point Open, property sales, council tax register, companies house data, and other sources. Several endpoints for location searches, address matching, and autocompletion.
-
-- **Category:** Addressing
-- **Secondary Category:** 
-- **Provider:** GetAddress
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://documentation.getaddress.io)
-- **Data link 2:** [Data link 2](https://admin.getaddress.io/account/sign-up)
-- **Docs link:** [Docs link](https://getaddress.io/)
 
 
 
@@ -70,62 +45,6 @@ The price paid for properties, and the completion date. Includes address, and mo
 
 
 
-## Registered Leases
-
-Leases of more than seven years in England and Wales. Includes dates and terms, UPRN, price paid, registration order (for multi-lease titles), though these attributes are not always present. No geometries provided, but includes associated property descriptions eg. "LAND TO THE EAST OF 63 GRANBY GLEBE AVENUE, NE3 4FR". Updated monthly.
-
-- **Category:** Addressing
-- **Secondary Category:** Buildings
-- **Provider:** HM Land Registry
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://use-land-property-data.service.gov.uk/datasets/leases#access)
-- **Data link 2:** [Data link 2](https://use-land-property-data.service.gov.uk/api-documentation)
-- **Docs link:** [Docs link](https://use-land-property-data.service.gov.uk/datasets/leases/tech-spec)
-
-
-
-## Online Owner Verification Service
-
-A tool for validating whether or not an individual owns a specific property. The Title Number or address must be supplied along with the name of the proprietor, and the tool validates ownership at a much lower cost than that of purchasing title registers. For bulk validation, CSV files can be sent, with a 48-hour turnaround time.
-
-- **Category:** Addressing
-- **Secondary Category:** 
-- **Provider:** HM Land Registry
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://landregistry.github.io/bgtechdoc/documents/online_owner_verification/OOV_Interface_Spec.html)
-- **Data link 2:** [Data link 2](https://www.gov.uk/guidance/hm-land-registry-verify-your-property-data#volume-data-matching)
-- **Docs link:** [Docs link](https://www.gov.uk/guidance/hm-land-registry-verify-your-property-data)
-
-
-
-## Zoopla Listings API
-
-Details of Zoopla property sales and rental listings, including value, Zoopla URL, time on the market, and images/content, based on an input UPRN.
-
-- **Category:** Buildings
-- **Secondary Category:** Addressing
-- **Provider:** Hometrack
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://data.hometrack.com/documentation/listings)
-- **Data link 2:** [Data link 2](https://www.hometrack.com/data-services/data-hub/)
-- **Docs link:** [Docs link](https://www.hometrack.com/data-services/property-listings-data-from-hometrack/)
-
-
-
-## Zoopla Comparables API
-
-Property details and comparables for Zoopla listings, both rental and sales. These cover property type, bedrooms, bathrooms, receptions, building age, floor space, property value, rental value, energy performance details, address, point location. For valuations, the information source is provided. Some properties do not include valuations. Data is searchable by UPRN, location, or comparables and attributes.
-
-- **Category:** Buildings
-- **Secondary Category:** Addressing
-- **Provider:** Hometrack
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://data.hometrack.com/documentation/comparables)
-- **Data link 2:** [Data link 2](https://www.hometrack.com/data-services/data-hub/)
-- **Docs link:** [Docs link](https://www.hometrack.com/data-services/comparables-data-from-hometrack/)
-
-
-
 ## ONS UPRN Directory
 
 Lookups mapping Unique Property Reference Number (UPRN) for each GB address to a range of current statutory administrative, electoral, health and other statistical geographies. Includes Eastings and Northings.
@@ -137,20 +56,6 @@ Lookups mapping Unique Property Reference Number (UPRN) for each GB address to a
 - **Data link 1:** [Data link 1](https://geoportal.statistics.gov.uk/search?categories=%252Fcategories%252Fuprn%2520products%252Fons%2520uprn%2520directory&q=ONS%20UPRN%20Directory&sort=Date%20Created%7Ccreated%7Cdesc)
 - **Data link 2:** 
 - **Docs link:** [Docs link](https://geoportal.statistics.gov.uk/documents/ons::a-guide-to-ons-geography-postcode-products-1/about)
-
-
-
-## OS NGD Address Theme
-
-A complete and definitive view of UK address data. Includes address lifecycle, use classification, hierarchical UPRNs, and floor level for multi-address buildings. Includes UPRN and other internal and external identifiers such as USRNs, VOA categorisations and Council Tax/Non-Domestic Rates, and postal service information (including UDPRN)
-
-- **Category:** Addressing
-- **Secondary Category:** 
-- **Provider:** Ordnance Survey
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://docs.os.uk/os-apis/accessing-os-apis/os-places-api/technical-specification)
-- **Data link 2:** [Data link 2](https://www.ordnancesurvey.co.uk/products/os-gb-address)
-- **Docs link:** [Docs link](https://docs.os.uk/osngd/data-structure/address)
 
 
 
@@ -182,20 +87,6 @@ Provides a mapping between postcodes and geographic coordinates for Great Britai
 
 
 
-## OS Code-Point with Polygons
-
-Provides postcode unit boundaries as polygons for Great Britain. Useful for demographic analysis, service area planning, and spatial modeling. Includes centroid coordinates and hierarchical relationships. Derived from georeferenced Royal Mail Postal Address File (PAF) delivery addresses. Updated quarterly.
-
-- **Category:** Addressing
-- **Secondary Category:** 
-- **Provider:** Ordnance Survey
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://www.ordnancesurvey.co.uk/products/code-point-polygons#get)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://docs.os.uk/os-downloads/addressing-and-location/code-point-with-polygons)
-
-
-
 ## OS Linked Identifiers
 
 Authoritative relationships between Unique Property Reference Numbers (UPRNs), Unique Street Reference Numbers (USRNs) and Topographic Identifiers (TOIDs), and metadata. These link together OS Addressing, Road/Highways, and Topographic Area features. No geospatial attribution, but these can be attained with reference to other OS products such as Open UPRN, Open TOID, Open Roads, and National Geographic Database data.
@@ -210,20 +101,6 @@ Authoritative relationships between Unique Property Reference Numbers (UPRNs), U
 
 
 
-## PropertyData Title Registers
-
-Supplies official copies of title registers and/or title plans. A streamlined wrapper around HMLR's document access API. A document URL is supplied with the response which can be used to download the files.
-
-- **Category:** Land & Land Use
-- **Secondary Category:** Addressing
-- **Provider:** PropertyData
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://propertydata.co.uk/api/pricing?x=api_docs)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://propertydata.co.uk/api/documentation/land-registry-documents)
-
-
-
 ## Registers of Scotland Cadastral Parcels (INSPIRE)
 
 Extents and INSPIRE IDs of titles in Scotland. Complies with the INSPIRE Directive. No title numbers or other attribution provided besides location. Each polygon has a unique INSPIRE ID linked to a title.
@@ -235,45 +112,3 @@ Extents and INSPIRE IDs of titles in Scotland. Complies with the INSPIRE Directi
 - **Data link 1:** [Data link 1](https://ros-inspire.themapcloud.com/)
 - **Data link 2:** 
 - **Docs link:** [Docs link](https://ros-inspire.themapcloud.com/assets/files/INSPIRE_dataset_specification_v1.5_March2025.pdf)
-
-
-
-## Rightmove Property Data
-
-Data created by property listings, visits, and leads on Rightmove. Includes data on asking prices, price reductions, rental yields, available stock, sales, time on market, and enquiries (eg. calls, emails). They also incorporate contextual third party data, including from HMLR. Includes historic data going back to the 2000s.
-
-- **Category:** Addressing
-- **Secondary Category:** Buildings
-- **Provider:** Rightmove
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://www.rightmove.co.uk/property-data/)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://www.rightmove.co.uk/property-data/rightmoves-property-data/)
-
-
-
-## TomTom Places & POIs
-
-Various APIs for searching and handling Places, Addresses, and Points of Interest such as railway stations, airports, restaurants, and hotels. Includes and EV charging search endpoint. Avaiable as geospatial searches, free-text fuzzy searches, autocompletion, and batch search.
-
-- **Category:** Places & Points-of-Interest
-- **Secondary Category:** Addressing
-- **Provider:** TomTom
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://docs.tomtom.com/#:~:text=Documentation-,Places,-Batch%20Search%20API)
-- **Data link 2:** 
-- **Docs link:** [Docs link](https://www.tomtom.com/products/places-apis/)
-
-
-
-## Verisk UKBuildings
-
-A national database of building characteristics to provide detailed information about individual buildings and to give an understanding of the character of an area. Includes age, use, height, residential type, number of floors, location, structural detail, fireplace presence, and counts of different types of rooms.
-
-- **Category:** Buildings
-- **Secondary Category:** Addressing
-- **Provider:** Verisk
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://digimap.edina.ac.uk/verisk)
-- **Data link 2:** [Data link 2](https://apicatalog.verisk.com/docs/uk-data-api/zi70nw727oya9-verisk-uk-claims-data-api)
-- **Docs link:** [Docs link](https://www.verisk.com/en-gb/products/ukbuildings)

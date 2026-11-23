@@ -2,7 +2,7 @@
 title: Climate & Weather
 has_children: false
 parent: Catalist
-nav_order: 6
+nav_order: 5
 ---
 
 # Climate & Weather
@@ -22,7 +22,6 @@ nav_order: 6
 | [WRI and Meta Tree Canopy Height Map](#wri-and-meta-tree-canopy-height-map)       | META                                                | Open      | [Data link 1](https://registry.opendata.aws/dataforgood-fb-forests/)                                                                   |                                                                                                                         | [Docs link](https://github.com/facebookresearch/HighResCanopyHeight)                                                             |
 | [Outdoor Fire Incidents](#outdoor-fire-incidents)                                 | Ministry of Housing, Communities & Local Government | Open      | [Data link 1](https://www.gov.uk/government/statistics/fire-statistics-incident-level-datasets)                                        |                                                                                                                         | [Docs link](https://www.gov.uk/government/statistics/fire-statistics-incident-level-datasets/outdoor-fires-dataset-guidance)     |
 | [Sites of Special Scientific Interest](#sites-of-special-scientific-interest)     | Natural England                                     | Open      | [Data link 1](https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::sites-of-special-scientific-interest-england/explore)   | [Data link 2](https://environment.data.gov.uk/spatialdata/sites-of-special-scientific-interest-england/ogc/features/v1) | [Docs link](https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::sites-of-special-scientific-interest-england/about) |
-| [SatVu Thermal Imagery](#satvu-thermal-imagery)                                   | SatVu                                               | Premium   | [Data link 1](https://docs.satellitevu.com/developers/api/overview/)                                                                   | [Data link 2](https://github.com/SatelliteVu/satvu-api-sdk)                                                             | [Docs link](https://www.satellitevu.com/products/thermal-imagery)                                                                |
 | [National River Flow Archive](#national-river-flow-archive)                       | UK Centre for Ecology & Hydrology                   | Open      | [Data link 1](https://nrfaapps.ceh.ac.uk/nrfa/nrfa-api.html)                                                                           |                                                                                                                         | [Docs link](https://nrfa.ceh.ac.uk/)                                                                                             |
 
 ## ERA5-Land
@@ -204,20 +203,6 @@ Sites for wildlife and natural features in England, supporting many characterist
 - **Data link 1:** [Data link 1](https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::sites-of-special-scientific-interest-england/explore)
 - **Data link 2:** [Data link 2](https://environment.data.gov.uk/spatialdata/sites-of-special-scientific-interest-england/ogc/features/v1)
 - **Docs link:** [Docs link](https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::sites-of-special-scientific-interest-england/about)
-
-
-
-## SatVu Thermal Imagery
-
-3.5m-resolution infrared imagery, captured once every 1-2 days during both day and night. Specific observations can be tasked through the platform. Can also provide video sequences up to 60 seconds long.
-
-- **Category:** Climate & Weather
-- **Secondary Category:** Satellite & Aerial Imagery
-- **Provider:** SatVu
-- **Licensing:** Premium
-- **Data link 1:** [Data link 1](https://docs.satellitevu.com/developers/api/overview/)
-- **Data link 2:** [Data link 2](https://github.com/SatelliteVu/satvu-api-sdk)
-- **Docs link:** [Docs link](https://www.satellitevu.com/products/thermal-imagery)
 
 
 
